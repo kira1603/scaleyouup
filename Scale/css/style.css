@@ -1,0 +1,298 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	font-family: 'Work Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oleo Script Swash Caps', cursive;
+}
+a {
+	outline: none !important;
+}
+/*-----Header & Banner-------*/
+.navbar-brand {
+
+	font-family: 'Oleo Script Swash Caps', cursive;
+	color: black;
+	font-size: 20px;
+	
+}
+.navbar-toggle {
+	background-color: silver;
+}
+.navbar-toggle .icon-bar {
+	background-color: RGBA(0, 0, 0, 0.48);
+}
+.banner {
+	background-attachment: fixed;
+	background-image: url(images/background.png);
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.bg-overlay {
+	padding: 280px 0 220px;
+}
+.banner-text {
+	margin-top: -20px;
+}
+.banner-text h2 {
+	font-size: 70px;
+	font-style: bold;
+}
+.banner-text a {
+	text-decoration: none;
+}
+.banner-text a span{
+	color: black;
+}
+.banner-text p {
+	font-size: 25px;
+}
+.banner-button {
+	background-color: black; 
+	border: black 2px solid;
+	padding: 12px 35px;
+	color: #ccc;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin-top: 50px;
+}
+.banner-button:hover {
+	background-color: transparent;
+	text-decoration: none;
+	color: #000;
+}
+.mynav li a {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+.but{
+	background-color: silver;
+	margin-left: 8px;
+}
+.navbar-nav > li > a {
+	padding-top: 15px;
+	padding-bottom: 13px;
+}
+/*-----Header & Banner Ends-------*/
+
+
+/*-----Portfolio or Work Starts-------*/
+
+.adr {
+	margin-left: 100px;
+	padding: 50px 0;
+	background-image: url(images/pers.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+	width: 92,5%;
+	height: 700px;
+	margin-bottom: 70px;
+	margin-top: 70px;
+}
+.bas{
+	
+	margin-top: 70px;
+	margin-left: -40px;
+	margin-bottom: 30px;
+}
+.haut{
+	
+	margin-top: -20px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+.bas1{
+	
+	margin-top: 40px;
+	margin-left: -40px;
+	margin-bottom: 30px;
+}
+.haut1{
+	
+	margin-top: 100px;
+	margin-left: 90px;
+	margin-bottom: 30px;
+}
+.bas2{
+	
+	margin-top: 10px;
+	margin-left: 70px;
+	margin-bottom: 30px;
+}
+.haut2{
+	
+	margin-top: 180px;
+	margin-left: 50px;
+	margin-bottom: 30px;
+}
+
+.adr-item {
+	text-align: left;
+	margin-bottom: 30px;
+	width: 370px;
+	height: 80px;
+
+}
+.adr-item .titr{
+	font-family: 'Oleo Script Swash Caps', cursive;
+	color: black;
+	font-size: 17px;
+}
+.view-more {
+	padding: 12px 35px;
+	width: 300px;
+	height: 50px;
+	border: black 2px solid;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin-top: 70px;
+	margin-left: 80px;
+}
+.view-more:hover {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: black;
+}
+
+/*-----Portfolio or Work Ends-------*/
+
+
+
+
+
+/*-----Contact Starts-------*/
+.contact {
+	float: left;
+	width: 100%;
+	height: 950px;
+	
+}
+.cont{
+	margin-top: 250px;
+	border-top: 2px solid black;
+	box-shadow: 3px;
+	
+}
+.contact-form {
+	margin-top: 70px;
+	
+}
+.form-control {
+	display: block;
+	width: 100%;
+	height: 34px;
+	font-size: 14px;
+	line-height: 1.42857;
+	color: black;
+	background-color: white;
+	background-image: none;
+	border: none;
+	border-radius: 0px;
+	box-shadow: none;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+	resize: none;
+	margin-top: 15px;
+}
+.form-control:hover, .form-control:focus {
+	box-shadow: none;
+	border: 2px solid black;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+color: #242424 !important;
+}
+ input:-moz-placeholder, textarea:-moz-placeholder { /* Firefox 18- */
+color: #242424 !important;
+}
+ input::-moz-placeholder, textarea::-moz-placeholder {  /* Firefox 19+ */
+color: #242424 !important;
+}
+ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+color: #242424 !important;
+}
+.contact-button {
+	border: none;
+	padding: 12px 35px;
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	background-color: black;
+	margin-top: 30px;
+	margin-left: 250px;
+}
+.address {
+	margin-top: 100px;
+	margin-left: 160px;
+	
+}
+form{
+	background-color: green;
+}
+.address p {
+	font-size: 16px;
+	font-weight: 500;
+}
+.email i {
+	color: #EB233C;
+	padding-right: 10px;
+	font-weight: 400;
+	font-size: 16px;
+}
+.email {
+	padding-top: 15px;
+}
+ul.social-buttons {
+	margin-bottom: 0;
+}
+ul.social-buttons li a {
+	background-color: #222;
+	border-radius: 100%;
+	color: #fff;
+	display: block;
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	outline: 0 none;
+	transition: all 0.3s ease 0s;
+	width: 40px;
+}
+ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
+	background-color: #EB233C;
+}
+.btn:focus, .btn:active, .btn.active, .btn:active:focus {
+	outline: 0 none;
+}
+
+/*-----Contact Starts-------*/
+
+@media (min-width:0px) and (max-width: 600px) {
+.bg-overlay {
+	padding: 180px 0 120px;
+}
+.banner-text h2 {
+	font-size: 35px;
+}
+nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
+	border-bottom: none;
+	color: red;
+	;
+}
