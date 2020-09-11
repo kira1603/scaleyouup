@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scaleyouup</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/simple-line-icons.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/owl.carousel.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/owl.theme.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/owl.transitions.css"/>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+  </head>
+
+  <body>
+
+<!--  -->
+<div class="main-header" id="main-header">
+  <nav class="navbar mynav navbar-fixed-top" style="height: 100px; background-color: white; font-color: black;">
+    <div class="container">
+      <div class="navbar-header" >
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="margin-top: 20px;">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand text-center" href="#" style="margin-left: 120px; margin-top: 10px;">SCALE YOU UP<br>by Eighty Eight</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar" style="margin-top: 25px; margin-right: 20px;">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html">Acceuil</a></li>
+          <li><a href="#work">A propos</a></li>
+          <li><a href="/pour">Pour qui?</a></li>
+          <li><a href="/tarifs">Tarifs</a></li>
+          <li><a href="/service">Services</a></li>
+          <li><a href="#contact">Contacts</a></li>
+          <% if user_signed_in? %>
+              <li><a href="#" class="use"><span class="icon-user"></span></a></li>
+              <li><%= link_to "Deconnexion", destroy_user_session_path, method: :delete %></li>
+          <% else %>
+              <li><a href="<%= new_user_session_path %>" class="but">Connexion</a></li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<!--  -->
+
+    <div class="container-fluid" style= "padding-top: 5rem;">
+        <%= yield %>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,715 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	font-family: 'Work Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oleo Script Swash Caps', cursive;
+}
+a {
+	outline: none !important;
+}
+/*-----Header & Banner-------*/
+.navbar-brand {
+
+	font-family: 'Oleo Script Swash Caps', cursive;
+	color: black;
+	font-size: 20px;	
+}
+.navbar-toggle {
+	background-color: silver;
+}
+.navbar-toggle .icon-bar {
+	background-color: RGBA(0, 0, 0, 0.48);
+}
+.banner {
+	background-attachment: fixed;
+	background-image: url(../images/background.png);
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.bg-overlay {
+	padding: 280px 0 220px;
+}
+.banner-text {
+	margin-top: -20px;
+}
+.ti {
+	font-size: 50px;
+	font-style: bold;
+}
+.banner-text a span {
+	margin-top: 30px;
+	font-size: 15px;
+}
+.banner-text a {
+	text-decoration: none;
+}
+.banner-text a span{
+	color: black;
+}
+.banner-text p {
+	font-size: 25px;
+}
+.banner-button {
+	background-color: black; 
+	border: black 2px solid;
+	padding: 12px 35px;
+	color: #ccc;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin-top: 50px;
+}
+.banner-button:hover {
+	background-color: transparent;
+	text-decoration: none;
+	color: ;
+}
+.mynav li a {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+.but{
+	background-color: #F0A250;
+	background-opacity: 75%;
+	margin-left: 8px;
+}
+.navbar-nav > li > a {
+	padding-top: 15px;
+	padding-bottom: 13px;
+}
+/*-----Header & Banner Ends-------*/
+
+
+/*-----Acceuil------*/
+
+.adr {
+	margin-left: 100px;
+	padding: 50px 0;
+	background-size: 65%;
+	background-image: url(../images/pers.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+	width: 92,5%;
+	height: 850px;
+	margin-bottom: 70px;
+	margin-top: 70px;
+}
+.bas{
+	
+	margin-top: 80px;
+	margin-left: 60px;
+	
+}
+.haut{
+	
+	margin-top: 0px;
+	margin-left: 60px;
+	
+}
+.bas1{
+	
+	margin-top: 10px;
+	margin-left: 40px;
+	
+}
+.haut1{
+	
+	margin-top: 150px;
+	margin-left: 110px;
+	
+}
+.bas2{
+	margin-top: -20px;
+	margin-left: 140px;
+	
+}
+.haut2{
+	
+	margin-top: 170px;
+	margin-left: 50px;
+	margin-bottom: 30px;
+}
+.adr-item {
+	text-align: left;
+	margin-bottom: 30px;
+	width: 370px;
+	height: 80px;
+}
+.adr-item .titr{
+	font-family: 'Oleo Script Swash Caps', cursive;
+	color: black;
+	font-size: 17px;
+}
+.view-more {
+	padding: 12px 35px;
+	width: 300px;
+	height: 50px;
+	border: black 2px solid;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin-top: 30px;
+	margin-left: 270px;
+}
+.view-more:hover {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: black;
+}
+
+/*-----Acceuil Ends-------*/
+
+
+/*-----A propos de moi-------*/
+.moi{
+	height: 1500px;
+	background-color: none;
+}
+
+.baner {
+	background-attachment: fixed;
+	background-image: url(../images/bg2.png);
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	cursor: default;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.baner h2 {
+	font-size: 50px;
+	font-style: bold;
+}
+.fon img {
+	width: 313px;
+	height: 313px;
+	border: white 10px solid;
+	margin-top: -100px;
+	float: right;
+	margin-right: -150px;
+}
+.titr1{
+	font-size: 25px;
+	font-style: bold;
+}
+.text1 p {
+	font-size: 15px;
+	margin-top: 30px;
+	
+}
+.text1 {
+	margin-top: 100px;
+	color:  #242424;
+}
+.btn{
+	padding: 12px 35px;
+	width: 300px;
+	height: 50px;
+	border: black 2px solid;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin-top: 70px;
+	margin-left: 200px
+}
+.btn:hover {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: black;
+}
+.sign span {
+	font-size: 16px;
+	font-style: bold ;
+}
+/*-----A propos de moi Ends-------*/
+
+
+/*-----Connexion------*/
+
+
+.backRight {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: #3498db url(../images/per.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/*-XXXXXXXXXXXXXXXXXXXXXXXXXXX
+button {
+  background: #03A9F4;
+  padding: 10px 16px;
+  width: auto;
+  font-weight: 600;
+  text-transform:  uppercase;
+  font-size: 14px;
+  color: #fff;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  border-radius: 2px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+  border: 0;
+  outline: 0;
+  margin: 15px 15px 15px 0;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+button:hover {
+  background: #0288D1;
+  box-shadow: 0 4px 7px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+}
+----Connexion end-----*/
+
+
+/*-----Pour qui------*/
+
+.cart-section {
+  padding: 8em 0;
+  position: relative; 
+}
+ 
+.ftco-animate {
+  opacity: 0;
+  visibility: hidden; 
+}
+
+.ca {
+	--blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;	
+}
+.carte {
+	background-color: #F0A250;
+	color: white;
+	height: 320px;
+	width: 280px;
+	padding: 60px 10px;
+	text-align: center;
+}
+.txt{
+	height: 150px;
+}
+.titre{
+	font-size: 5em;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.sous{
+	font-size: 2em;
+	font-weight: 2em;
+}
+.ico {
+	text-decoration: none;
+	color: white;
+	margin-top: 50px;
+}
+.ico1 {
+
+	text-decoration: none;
+	color: white;
+	margin-top: 75px;
+}
+/*-----Pour qui Ends------*/
+
+
+/*-----Sevices-----*/
+
+.cart1-section {
+  padding: 8em 0;
+  position: relative; 
+}
+ 
+.ftc-animate {
+  opacity: 0;
+  visibility: hidden; 
+}
+
+-
+.ca {
+	--blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;	
+}
+
+.carte {
+	background-color: #6610f2;
+	color: white;
+	height: 320px;
+	width: 280px;
+	padding: 60px 10px;
+	text-align: center;
+}
+
+.txt{
+	height: 150px;
+}
+
+.titre{
+	font-size: 5em;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.sous{
+	font-size: 2em;
+	font-weight: 2em;
+}
+.ico {
+
+	text-decoration: none;
+	color: white;
+	margin-top: 50px;
+}
+.ico1 {
+
+	text-decoration: none;
+	color: white;
+	margin-top: 75px;
+}
+/*-----Sevices Ends-----*/
+
+
+/*-----Tarifs -----*/
+
+
+.pricing_table_section{
+	float:left;
+	width:100%;
+	background:#f8f8fa;
+	padding:60px 0 60px 0;
+	}
+	
+.pricing_table_section h2{
+	text-align:center;
+	font-family: 'open_sansregular';
+	font-size:30px;
+	color:#333;
+	font-weight:normal;
+	margin:0 0 20px 0;
+	padding:0 0 0 0;
+	}
+	
+.pricing_table_section h4{
+	text-align:center;
+	font-family: 'open_sanslight';
+	font-size:11px;
+	color:#909090;
+	font-weight:normal;
+	text-transform:uppercase;
+	margin:0 0 60px 0;
+	padding:0 0 30px 0;
+	background:url(images/border.png) no-repeat center bottom;
+	}
+
+.pricing_table_section .block:nth-of-type(2) .head{
+	background:#187cc2;
+	}	
+
+.pricing_table_section .block:last-of-type{
+	float:right;
+	margin:0 0 0 0;
+	}	
+	
+.pricing_table_section .block{
+	float:left;
+	width:320px;
+	background:#fff;
+	border:1px solid #e3e3e3;
+	margin:0 60px 0 0;
+	}
+	
+.pricing_table_section .block .head{
+	float:left;
+	width:320px;
+	background:#323232;
+	padding:25px 0 25px 0;
+	margin:0 0 0 0;
+	}
+	
+.pricing_table_section .block .head h2{
+	text-align:center;
+	font-family: 'open_sansregular';
+	font-size:30px;
+	color:#fff;
+	font-weight:normal;
+	margin:0 0 8px 0;
+	}
+	
+.pricing_table_section .block .head p{
+	text-align:center;
+	font-family: 'open_sanslight';
+	font-size:14px;
+	color:#fff;
+	font-weight:normal;
+	margin:0 0 0 0;
+	}
+	
+.pricing_table_section .block .head p strong{
+	font-family: 'open_sansbold';
+	font-weight:normal;
+	}
+	
+.pricing_table_section .block ul{
+	float:left;
+	width:100%;
+	margin:0 0 0 0;
+	}
+	
+.pricing_table_section .block ul li{
+	text-align:left;
+	font-family: 'open_sanslight';
+	font-size:14px;
+	color:#333;
+	font-weight:normal;
+	margin:0 0 0 0;
+	padding:15px 30px 15px 30px;
+	border-bottom:dotted 1px #999;
+	}
+	
+.pricing_table_section .block ul li:last-of-type{
+	border-bottom:none;
+	}
+	
+.pricing_table_section .block ul li span{
+	float:right;
+	font-family: 'open_sanssemibold';
+	}
+	
+.pricing_table_section .block ul li span img{
+	}
+	
+.pricing_table_section .block ul li a.button5, .pricing_table_section .block ul li a.button6{
+	float:right;
+	width:95px;
+	height:43px;
+	border:1px solid #000;
+	text-align:center;
+	font-family: 'open_sanslight';
+	font-size:14px;
+	color:#000;
+	font-weight:normal;
+	text-transform:uppercase;
+	line-height:43px;
+	margin:0 0 10px 0;
+	border-radius:3px; -webkit-border-radius:3px; 
+	transition:0.5s; -webkit-transition:0.5s;
+	background:none;
+	text-decoration:none;
+	}
+	
+.pricing_table_section .block ul li a.button5:hover{
+	text-decoration:none;
+	background:#187cc2;
+	border:1px solid #187cc2;
+	color:#fff;
+	}
+	
+.pricing_table_section .block ul li a.button6{
+	background:#187cc2;
+	border:1px solid #187cc2;
+	color:#fff;
+	}	
+	
+.pricing_table_section .block ul li a.button6:hover{
+	text-decoration:none;
+	background:none;
+	border:1px solid #000;
+	color:#000;
+	}
+	
+.pricing_table_section .block ul li h5{
+	float:left;
+	text-align:left;
+	font-family: 'open_sanssemibold';
+	font-size:14px;
+	color:#333;
+	font-weight:normal;
+	line-height:25px;
+	}
+
+
+.formu{
+	background-color: #F0A250;
+	height: 525px;
+	margin-left: 100px;
+}
+
+
+/*-----Contact Starts-------*/
+
+.corp {
+	margin-top: 30px;
+	margin-left: 160px;
+	float: left;
+	width: 100%;
+	height: 150px;
+}
+.media span {
+	margin-left: -10px;
+}
+
+.contact{
+	margin-top: 100px;
+
+}
+.cont{
+	margin-top: 0px;
+	border-top: 2px solid black;
+	box-shadow: 3px;
+
+	height: 670px;
+
+}
+.contact-form {
+	margin-top: 70px;
+}
+.form-control {
+	display: block;
+	width: 100%;
+	height: 34px;
+	font-size: 14px;
+	line-height: 1.42857;
+	color: black;
+	background-color: white;
+	background-image: none;
+	border: none;
+	border-radius: 0px;
+	box-shadow: none;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+	resize: none;
+	margin-top: 15px;
+}
+.form-control:hover, .form-control:focus {
+	box-shadow: none;
+	border: 2px solid black;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+color: #242424 !important;
+}
+ input:-moz-placeholder, textarea:-moz-placeholder { /* Firefox 18- */
+color: #242424 !important;
+}
+ input::-moz-placeholder, textarea::-moz-placeholder {  /* Firefox 19+ */
+color: #242424 !important;
+}
+ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+color: #242424 !important;
+}
+.contact-button {
+	border: none;
+	padding: 12px 35px;
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	background-color: black;
+	margin-top: 30px;
+	margin-left: 250px;
+}
+.address {
+	margin-top: 100px;
+	margin-left: 160px;
+	
+}
+form{
+
+}
+.media {
+	margin-top: 100px;
+	margin-left: 160px;
+}
+
+.media span img{
+	margin-left: 5px;
+}
+.adres p {
+	font-size: 16px;
+	font-weight: 500;
+}
+.adres p {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+
+/*-----Contact Starts-------*/
+
+.banner-text h2 {
+	font-size: 35px;
+}
+nav > li > a:focus, .nav > li > a:hover, .nav > li > a:focus, .nav > li.active > a {
+	border-bottom: none;
+	color: #F0A250;
+	background-color: transparent;
+}

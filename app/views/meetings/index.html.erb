@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/css/meeting.css">
+    <style>
+      body{
+      background-image: url(https://www.ictusvoyages.com/share/pack/imagespro/1951/Maroc1.jpg);
+      background-size: cover;
+    }
+
+    h1{
+      text-align: center;
+    }
+    .btn-success{
+      display : flex;
+      justify-content: center;
+    }
+    </style>
+  </head>
+  <body>
+    <p id="notice"><%= notice %></p>
+
+    <h1>Meetings</h1>
+
+<center>
+  <%= link_to 'New Meeting', new_meeting_path, class: "btn btn-success" %>
+</center>
+
+    <%= month_calendar events: @meetings do |date, meetings| %>
+      <%= date.day %>
+
+      <% meetings.each do |meeting| %>
+        <div>
+          <%= meeting.name %>
+        </div>
+      <% end %>
+    <% end %>
+
+  </body>
+</html>

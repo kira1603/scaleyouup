@@ -1,0 +1,48 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "simple_calendar";
+
+
+.simple-calendar {
+  .day {background: none;}
+
+  .wday-0 {background: none;}
+  .wday-1 {background: none;}
+  .wday-2 {background: none;}
+  .wday-3 {background: none;}
+  .wday-4 {background: none;}
+  .wday-5 {background: none;}
+  .wday-6 {background: none;}
+
+  .today {background: none;}
+  .past {background: none;}
+  .future {background: none;}
+
+  .start-date {background: none;}
+
+  .prev-month {background: none;}
+  .next-month { background: none;}
+  .current-month {background: none;}
+
+  .has-events {}
+  width: 1000px;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  background: none;
+  color: "blue";
+}
